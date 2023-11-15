@@ -1,5 +1,7 @@
 Step1:
-![Image](step1.png)
+```
+annielee@Annie-LEe ~ % ssh cs15fa23gl@ieng6.ucsd.edu
+```
 Step2:
 ![Image](step2.png)
 Step3:
