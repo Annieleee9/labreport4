@@ -33,6 +33,6 @@ Key Pressed:
 4. press the &lt;up&gt; key once to run the test: java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
 5. vim + &lt;space&gt; key + ListExamples.java
 6. Press the &lt;up&gt; key six times to get to our desired line
-7. i + &lt;right&gt; key + &lt;backspace&gt; key + press 2
-8. press the &lt;esc&gt; key
-9. :wq+ &lt;Enter&gt; key
+7. i + &lt;right&gt; key + &lt;backspace&gt; key + press 2 to replace 1
+8. press the &lt;esc&gt; key to go back to normal mode
+9. :wq+ &lt;Enter&gt; key to save and exit 
