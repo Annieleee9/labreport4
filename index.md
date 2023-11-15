@@ -3,7 +3,9 @@ Step1:
 annielee@Annie-LEe ~ % ssh cs15fa23gl@ieng6.ucsd.edu
 ```
 Step2:
-![Image](step2.png)
+```
+[cs15lfa23gl@ieng6-202]:~:185$ git clone git@github.com:Annieleee9/lab7.git
+```
 Step3:
 ![Image](step3.png)
 Step4:
