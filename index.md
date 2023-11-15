@@ -9,7 +9,9 @@ Step2:
 Step3:
 ![Image](step3.png)
 Step4:
-![Image](step4.png)
+```
+[cs15lfa23gl@ieng6-202]:lab7:187$ vim ListExamples.java
+```
 Step5:
 ![Image](step5.png)
 Key Pressed:
