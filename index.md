@@ -21,7 +21,6 @@ Step5:
 [cs15lfa23gl@ieng6-202]:lab7:190$ git add ListExamples.java
 [cs15lfa23gl@ieng6-202]:lab7:191$ git push
 ```
-![Image](step5.png)
 ![Image](step6.png)
 
 
