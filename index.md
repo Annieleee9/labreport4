@@ -7,13 +7,23 @@ Step2:
 [cs15lfa23gl@ieng6-202]:~:185$ git clone git@github.com:Annieleee9/lab7.git
 ```
 Step3:
+```
+[cs15lfa23gl@ieng6-202]:lab7:188$ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+[cs15lfa23gl@ieng6-202]:lab7:189$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+```
 ![Image](step3.png)
 Step4:
 ```
 [cs15lfa23gl@ieng6-202]:lab7:187$ vim ListExamples.java
 ```
 Step5:
+```
+[cs15lfa23gl@ieng6-202]:lab7:190$ git add ListExamples.java
+[cs15lfa23gl@ieng6-202]:lab7:191$ git push
+```
 ![Image](step5.png)
+
+
 Key Pressed:
 
 1. press the &lt;up&gt; key four times to git clone the SSH URL: git clone git@github.com:Annieleee9/lab7.git
