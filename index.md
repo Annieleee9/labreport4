@@ -49,12 +49,35 @@ OK (2 tests)
 
 Key Pressed:
 
-1. press the &lt;up&gt; key four times to git clone the SSH URL: git clone git@github.com:Annieleee9/lab7.git
-2. press the &lt;up&gt; key three times for the cd command:  cd lab7.
-3. press the &lt;up&gt; key two times to run the test javac command: javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
-4. press the &lt;up&gt; key once to run the test: java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
-5. vim + &lt;space&gt; key + ListExamples.java
-6. Press the &lt;up&gt; key six times to get to our desired line
-7. i + &lt;right&gt; key + &lt;backspace&gt; key + press 2 to replace 1
-8. press the &lt;esc&gt; key to go back to normal mode
-9. :wq+ &lt;Enter&gt; key to save and exit 
+1.press the &lt;up&gt; key five times to get to SSH command and log into ieng6. 
+2. press the &lt;up&gt; key four times to git clone the SSH URL:
+```
+[cs15lfa23gl@ieng6-203]:~:258$ git clone git@github.com:Annieleee9/lab7.git
+```
+3. press the &lt;up&gt; key three times for the cd command:
+```
+[cs15lfa23gl@ieng6-203]:~:262$ cd lab7
+```
+4. press the &lt;up&gt; key two times to run the test javac command:
+   ```
+   [cs15lfa23gl@ieng6-203]:lab7:265$ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+   ```
+
+5. press the &lt;up&gt; key once to run the test:
+   ```
+   [cs15lfa23gl@ieng6-203]:lab7:266$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+   ```
+6. vim + &lt;space&gt; key + ListExamples.java
+   ```
+   [cs15lfa23gl@ieng6-203]:lab7:263$ vim ListExamples.java
+   ```
+7. Press the &lt;up&gt; key six times to get to our desired line
+8. i + &lt;right&gt; key + &lt;backspace&gt; key + press 2 to replace 1
+9. Press the &lt;esc&gt; key to go back to normal mode
+10. :wq+ &lt;Enter&gt; key to save and exit
+11. Rerun to demonstrate test successful:
+ ```
+[cs15lfa23gl@ieng6-203]:lab7:265$ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+[cs15lfa23gl@ieng6-203]:lab7:266$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+```
+    
