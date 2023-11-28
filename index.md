@@ -1,8 +1,10 @@
 Step1:
+press the &lt;up&gt; key five times to get to SSH command and log into ieng6. 
 ```
 annielee@Annie-LEe ~ % ssh cs15lfa23gl@ieng6.ucsd.edu
 ```
 Step2:
+ press the &lt;up&gt; key four times to git clone the SSH URL:
 ```
 [cs15lfa23gl@ieng6-203]:~:258$ git clone git@github.com:Annieleee9/lab7.git
 fatal: destination path 'lab7' already exists and is not an empty directory.
@@ -18,23 +20,30 @@ Receiving objects: 100% (67/67), 377.92 KiB | 1.84 MiB/s, done.
 Resolving deltas: 100% (25/25), done.
 ```
 Step3:
+press the &lt;up&gt; key three times for the cd command:
+```
+[cs15lfa23gl@ieng6-203]:~:262$ cd lab7
+```
+Step 4:
+press the &lt;up&gt; key two times to run the test javac command:
 ```
 [cs15lfa23gl@ieng6-202]:lab7:188$ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 [cs15lfa23gl@ieng6-202]:lab7:189$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
 ```
-![Image](step3.png)
-Step4:
-```
-[cs15lfa23gl@ieng6-202]:lab7:187$ vim ListExamples.java
-```
 Step5:
-```
-[cs15lfa23gl@ieng6-202]:lab7:190$ git add ListExamples.java
-[cs15lfa23gl@ieng6-202]:lab7:191$ git push
-```
-![Image](step6.png)
+ vim + &lt;space&gt; key + ListExamples.java
+   ```
+   [cs15lfa23gl@ieng6-203]:lab7:263$ vim ListExamples.java
+   ```
+Make changes to ListExamples.java:
+Press the &lt;up&gt; key six times to get to our desired line
+i + &lt;right&gt; key + &lt;backspace&gt; key + press 2 to replace 1
+Press the &lt;esc&gt; key to go back to normal mode
+:wq+ &lt;Enter&gt; key to save and exit
+![Image](step3.png)
 
 Step 6:
+ Rerun to demonstrate test successful:
 ```
 [cs15lfa23gl@ieng6-203]:lab7:265$ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 [cs15lfa23gl@ieng6-203]:lab7:266$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
@@ -46,38 +55,14 @@ Time: 0.024
 OK (2 tests)
 ```
 
+Step 7:
+Commit and push the resulting change
+```
+[cs15lfa23gl@ieng6-202]:lab7:190$ git add ListExamples.java
+[cs15lfa23gl@ieng6-202]:lab7:191$ git push
+```
+![Image](step6.png)
 
-Key Pressed:
 
-1.press the &lt;up&gt; key five times to get to SSH command and log into ieng6. 
-2. press the &lt;up&gt; key four times to git clone the SSH URL:
-```
-[cs15lfa23gl@ieng6-203]:~:258$ git clone git@github.com:Annieleee9/lab7.git
-```
-3. press the &lt;up&gt; key three times for the cd command:
-```
-[cs15lfa23gl@ieng6-203]:~:262$ cd lab7
-```
-4. press the &lt;up&gt; key two times to run the test javac command:
-   ```
-   [cs15lfa23gl@ieng6-203]:lab7:265$ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
-   ```
 
-5. press the &lt;up&gt; key once to run the test:
-   ```
-   [cs15lfa23gl@ieng6-203]:lab7:266$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
-   ```
-6. vim + &lt;space&gt; key + ListExamples.java
-   ```
-   [cs15lfa23gl@ieng6-203]:lab7:263$ vim ListExamples.java
-   ```
-7. Press the &lt;up&gt; key six times to get to our desired line
-8. i + &lt;right&gt; key + &lt;backspace&gt; key + press 2 to replace 1
-9. Press the &lt;esc&gt; key to go back to normal mode
-10. :wq+ &lt;Enter&gt; key to save and exit
-11. Rerun to demonstrate test successful:
- ```
-[cs15lfa23gl@ieng6-203]:lab7:265$ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
-[cs15lfa23gl@ieng6-203]:lab7:266$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
-```
     
