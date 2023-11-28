@@ -27,6 +27,8 @@ press the &lt;up&gt; key two times to run the test javac command:
 [cs15lfa23gl@ieng6-202]:lab7:188$ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 [cs15lfa23gl@ieng6-202]:lab7:189$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
 ```
+Test fail before fixing:
+![Image](step3.png)
 Step5:
  vim + &lt;space&gt; key + ListExamples.java
    ```
@@ -37,7 +39,6 @@ Press the &lt;up&gt; key six times to get to our desired line
 i + &lt;right&gt; key + &lt;backspace&gt; key + press 2 to replace 1
 Press the &lt;esc&gt; key to go back to normal mode
 :wq+ &lt;Enter&gt; key to save and exit
-![Image](step3.png)
 
 Step 6:
  Rerun to demonstrate test successful:
