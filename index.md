@@ -1,6 +1,17 @@
 Step1:
 ```
-annielee@Annie-LEe ~ % ssh cs15fa23gl@ieng6.ucsd.edu
+[cs15lfa23gl@ieng6-203]:~:258$ git clone git@github.com:Annieleee9/lab7.git
+fatal: destination path 'lab7' already exists and is not an empty directory.
+[cs15lfa23gl@ieng6-203]:~:259$ rm -r lab7
+rm: remove write-protected regular file 'lab7/.git/objects/e4/fe973ab3214bf084c8298391bb0861146c41b3'? y
+[cs15lfa23gl@ieng6-203]:~:260$ git clone git@github.com:Annieleee9/lab7.git
+Cloning into 'lab7'...
+remote: Enumerating objects: 67, done.
+remote: Counting objects: 100% (31/31), done.
+remote: Compressing objects: 100% (17/17), done.
+remote: Total 67 (delta 19), reused 17 (delta 14), pack-reused 36
+Receiving objects: 100% (67/67), 377.92 KiB | 1.84 MiB/s, done.
+Resolving deltas: 100% (25/25), done.
 ```
 Step2:
 ```
