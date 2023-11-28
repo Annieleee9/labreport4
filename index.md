@@ -7,9 +7,6 @@ Step2:
  press the &lt;up&gt; key four times to git clone the SSH URL:
 ```
 [cs15lfa23gl@ieng6-203]:~:258$ git clone git@github.com:Annieleee9/lab7.git
-fatal: destination path 'lab7' already exists and is not an empty directory.
-[cs15lfa23gl@ieng6-203]:~:259$ rm -r lab7
-rm: remove write-protected regular file 'lab7/.git/objects/e4/fe973ab3214bf084c8298391bb0861146c41b3'? y
 [cs15lfa23gl@ieng6-203]:~:260$ git clone git@github.com:Annieleee9/lab7.git
 Cloning into 'lab7'...
 remote: Enumerating objects: 67, done.
