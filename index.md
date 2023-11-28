@@ -1,5 +1,9 @@
 Step1:
 ```
+annielee@Annie-LEe ~ % ssh cs15lfa23gl@ieng6.ucsd.edu
+```
+Step2:
+```
 [cs15lfa23gl@ieng6-203]:~:258$ git clone git@github.com:Annieleee9/lab7.git
 fatal: destination path 'lab7' already exists and is not an empty directory.
 [cs15lfa23gl@ieng6-203]:~:259$ rm -r lab7
@@ -12,10 +16,6 @@ remote: Compressing objects: 100% (17/17), done.
 remote: Total 67 (delta 19), reused 17 (delta 14), pack-reused 36
 Receiving objects: 100% (67/67), 377.92 KiB | 1.84 MiB/s, done.
 Resolving deltas: 100% (25/25), done.
-```
-Step2:
-```
-[cs15lfa23gl@ieng6-202]:~:185$ git clone git@github.com:Annieleee9/lab7.git
 ```
 Step3:
 ```
@@ -33,6 +33,18 @@ Step5:
 [cs15lfa23gl@ieng6-202]:lab7:191$ git push
 ```
 ![Image](step6.png)
+
+Step 6:
+```
+[cs15lfa23gl@ieng6-203]:lab7:265$ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+[cs15lfa23gl@ieng6-203]:lab7:266$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+JUnit version 4.13.2
+
+..
+Time: 0.024
+
+OK (2 tests)
+```
 
 
 Key Pressed:
